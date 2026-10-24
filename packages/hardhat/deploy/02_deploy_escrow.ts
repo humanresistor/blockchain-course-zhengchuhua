@@ -3,7 +3,7 @@ import { HardhatRuntimeEnvironment } from "hardhat/types";
 import { DeployFunction } from "hardhat-deploy/types";
 
 // TODO：替换为组内仲裁人的 MetaMask 地址，再执行部署命令。
-const ARBITER = "0xfdc6E5b9367449B4369003fb5B16ea0789013a26";
+const ARBITER = "0x565dC13E82d4a9A4BDb3Edb8Cdb67B08f48C9a07";
 
 const deployEscrow: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
   const { deployer } = await hre.getNamedAccounts();
